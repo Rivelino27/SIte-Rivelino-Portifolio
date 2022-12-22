@@ -7,6 +7,15 @@
     background: fixed linear-gradient(45deg, rgb(70, 238, 193), rgb(92, 155, 255), rgb(76, 115, 255));
     background-attachment: fixed;
 }
+#q7{
+  height: 300px;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  left: 80%;
+  top: 70vh;
+  
+}
   
    .menu2 {
     width: 100%;
@@ -116,7 +125,7 @@
     /* place-content: center; */
     text-align: center;
     width: 50vw;
-    height: 50vh;
+    height: 80vh;
   /*   top: 50%; */
     /* padding: auto; */
 
@@ -219,4 +228,3 @@ margin-left: 12%;
     visibility: visible;
   }
  /*<tooltip   */
-

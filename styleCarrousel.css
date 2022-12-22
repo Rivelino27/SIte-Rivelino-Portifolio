@@ -177,6 +177,10 @@
         text-align: justify;
         align-content: center;
         margin-left: 20%;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        z-index: 1;
     }
     #tt1-children {
         /* //width: max-content; */ /* Will shrink image to 10% of its original width */
@@ -241,7 +245,9 @@
        #iframe1{
         display: none;
        }
-     
+    #dn {
+        display: none;
+    }
 }
 
 /* 
