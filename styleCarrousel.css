@@ -238,6 +238,9 @@
        .menu2 div {
            display: none;
           }
+       #iframe1{
+        display: none;
+       }
      
 }
 
