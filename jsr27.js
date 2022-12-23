@@ -27,7 +27,7 @@ function prev(){
     slides[index].classList.remove('active');
     index = (index - 1 + slides.length) % slides.length;
     slides[index].classList.add('active');  
-    interval = setInterval(this.next,7000)
+    interval = setInterval(this.prev,7000)
 }
 next();
 /* interval = setInterval(next,7000) */
@@ -37,7 +37,7 @@ clearInterval()
 }
 
 function makeQuote() {
-    clearInterval(this.time2)
+    window.clearInterval(interval)
     const Q = [];//new Array();
     
     Q[0] = "Assim como o sol derrete o gelo, a gentileza evapora mal-entendidos, desconfianças e hostilidade. Albert Schweitzer"
