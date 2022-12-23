@@ -170,7 +170,7 @@
     }
     #items-i{
         display: none;
-        margin-top: 10%;
+        padding-top: 20%;
          /* Will shrink image to 10% of its original width */
         width: 30%;
         height: auto;
@@ -189,8 +189,8 @@
         height: auto;
         position: relative;
   left: 0vw;
-  top: 5vh;
-  margin-bottom: 13vh;
+ /*  top: 5vh; */
+/*   margin-bottom: 13vh; */
     }
     #img_R27{
         width: 90%; /* Will shrink image to 10% of its original width */
