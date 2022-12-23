@@ -139,6 +139,9 @@ backdrop-filter: blur(2.1px);
     transform: translate(-50%, -50%);
     text-align:  center;
     text-justify: center; */ /*display relative on parent */
+    position: relative;
+  right: 20vw;
+  bottom: 45vh;
 }
 /* icones */
 #items-i{
