@@ -2,31 +2,35 @@ let slides = document.querySelectorAll('.slide-container');
 let index = 0;
 let time = 5000;
 let time2 = 30000;
+let interval;
 /* let int9 = () => {
 setInterval(next, time);
 clearInterval()
 setInterval(next, time);
 } */
-const i9 = setInterval(() => {
+/* const i9 = setInterval(() => {
     next()
     clearInterval(this.i9())
 }, 5000);
-i9()
+i9() */
 function next(){
 /*     clearInterval(t9) */
+window.clearInterval(interval)
     slides[index].classList.remove('active');
     index = (index + 1) % slides.length;
     slides[index].classList.add('active');
+    interval = setInterval(this.next,7000)
 }
 
 function prev(){
+    window.clearInterval(interval)
     slides[index].classList.remove('active');
     index = (index - 1 + slides.length) % slides.length;
-    slides[index].classList.add('active');
-
-    
+    slides[index].classList.add('active');  
+    interval = setInterval(this.next,7000)
 }
-
+next();
+/* interval = setInterval(next,7000) */
 // setInterval(next, time);
 function slider10() {
 clearInterval()
