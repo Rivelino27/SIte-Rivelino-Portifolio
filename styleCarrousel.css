@@ -261,19 +261,47 @@ display: none;
 
     }
     .uptadee{
-    z-index: 1;
+    position: relative;
     margin-top: -30vh;
     padding-bottom: 90vh;
     top: 10vh;
     }
+    #con1{
+        display: none;
+    }
+}
+#qrw{
+    height: 45vh;
+    width: auto;
+    border-radius: 25%;
 }
 
 .uptadee{
     position: relative;
-    top: 85vh;
+    top: 90vh;
     left: 39vw;
 }
-
+.contatos{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    position: relative;
+    right: 4vw;
+}
+#con1{
+    margin-left: 12vw;
+    position: relative;
+    right: 3.2vw;
+    font-size: 5vh;
+}
+#logo1{
+    margin-top: 4vh;
+    height: 10vh;
+    margin-left: 12vw;
+    position: relative;
+    right: 3.2vw;
+}
 /* 
 @media(max-width: 500px){
     .containerproje #prev{
