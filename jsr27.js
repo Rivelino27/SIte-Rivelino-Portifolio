@@ -2,7 +2,7 @@ let slides = document.querySelectorAll('.slide-container');
 let index = 0;
 let time = 5000;
 let time2 = 30000;
-let interval;
+let interval, interval2;
 /* let int9 = () => {
 setInterval(next, time);
 clearInterval()
@@ -36,7 +36,7 @@ clearInterval()
 }
 
 function makeQuote() {
-    clearInterval(this.time2)
+    window.clearInterval(interval2)
     const Q = [];//new Array();
     
     Q[0] = "Assim como o sol derrete o gelo, a gentileza evapora mal-entendidos, desconfianças e hostilidade. Albert Schweitzer"
@@ -83,8 +83,7 @@ function makeQuote() {
     
     /* document.write.innerHTML(Q[index])[0]; */
     const list = document.getElementById("q7");
-    list.innerHTML = `<p id="frases1">${Q[index2]}</p>`;
+    list.innerHTML = `<p id="frases1">" ${Q[index2]} "</p>`;
+    interval2 = setInterval(this.makeQuote,40000)
     }
 makeQuote()
-
-tmp = setInterval(makeQuote,time2)

@@ -182,15 +182,16 @@
         text-align: center;
         z-index: 1;
     }
+
     #tt1-children {
         /* //width: max-content; */ /* Will shrink image to 10% of its original width */
-        height: auto; 
-        width: 85vw;
+      /*   height: auto; 
         height: auto;
         position: relative;
   left: 0vw;
- /*  top: 5vh; */
+  top: 5vh; */
 /*   margin-bottom: 13vh; */
+display: none;
     }
     #img_R27{
         width: 90%; /* Will shrink image to 10% of its original width */
@@ -255,8 +256,22 @@
   position: relative;
   left: 30vw;
   top: 5vh;
-  margin-bottom: 5vh;
+  margin-bottom: -200%;
+  height: max-content;
+
     }
+    .uptadee{
+    z-index: 1;
+    margin-top: -30vh;
+    padding-bottom: 90vh;
+    top: 10vh;
+    }
+}
+
+.uptadee{
+    position: relative;
+    top: 85vh;
+    left: 39vw;
 }
 
 /* 
