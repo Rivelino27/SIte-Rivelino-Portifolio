@@ -258,3 +258,14 @@ margin-right: 3%;
     visibility: visible;
   }
  /*<tooltip   */
+ footer{
+  background-color: black;
+  height: 14vh;
+  margin-top: 7vh;
+  color: white;
+ }
+ #pff {
+  position: relative;
+  top: 5vh;
+  font-size: 5vh;
+ }
