@@ -1,3 +1,3 @@
 # Site de portifolio pessoal
 
-![plot](./)
+![plot](./img/site%20Rivelinp%20Portifolio.png)

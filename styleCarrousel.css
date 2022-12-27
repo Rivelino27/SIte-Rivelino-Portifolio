@@ -248,6 +248,7 @@ display: none;
           }
        #iframe1{
         display: none;
+       
        }
     #dn {
         display: none;
@@ -274,6 +275,8 @@ display: none;
     height: 45vh;
     width: auto;
     border-radius: 25%;
+    font-size: 5vh;
+    
 }
 
 .uptadee{
@@ -343,6 +346,9 @@ display: none;
 
 } */
 
+#iframe1{
+    margin-top: 1.5vh;
+}
 
 .center {
 
